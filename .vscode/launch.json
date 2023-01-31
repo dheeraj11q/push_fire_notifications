@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutterpackages",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutterpackages (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutterpackages (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "pushnotification",
+            "cwd": "packages/pushnotification",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "pushnotification (profile mode)",
+            "cwd": "packages/pushnotification",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "pushnotification (release mode)",
+            "cwd": "packages/pushnotification",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
